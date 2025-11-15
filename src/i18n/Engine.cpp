@@ -24,6 +24,12 @@ void I18n::initEngine() {
 
     // zh_Hant (Traditional Chinese)
     engine.registerEntry("zh_Hant", TXT_KEY_SEARCH_SOMETHING, "搜尋...");
+
+    // nl_NL (Dutch Netherlands)
+    engine.registerEntry("nl_NL", TXT_KEY_SEARCH_SOMETHING, "Zoeken...");
+
+    // nl_BE (Dutch Belgium)
+    engine.registerEntry("nl_BE", TXT_KEY_SEARCH_SOMETHING, "Zoeken...");
 }
 
 std::string I18n::localize(eTextKeys key, const Hyprutils::I18n::translationVarMap& vars) {
